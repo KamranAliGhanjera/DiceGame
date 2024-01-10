@@ -1,0 +1,80 @@
+/* DiceGamePage.css */
+.dice-game-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .score-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .score-box {
+    width: 40px;
+    height: 40px;
+    background-color: lightblue;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .selected {
+    background-color: #4caf50; /* Change the background color for selected boxes */
+    color: white;
+  }
+  
+  .score-info {
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .dice-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .rolled-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button.reset-score {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  button.show-rules {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  

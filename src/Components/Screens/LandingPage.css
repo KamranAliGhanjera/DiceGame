@@ -1,0 +1,47 @@
+.dice-game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dice-game-content {
+  display: flex;
+  align-items: center;
+}
+
+.dice-image-container {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.dice-image-container img {
+  width: 500px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.dice-info {
+  text-align: left;
+  font-size: 30px;
+}
+
+button {
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 80px;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, border 0.3s ease, opacity 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-image: linear-gradient(to right, #3498db, #2980b9);
+  border-image-slice: 1;
+  opacity: 0.8;
+}
